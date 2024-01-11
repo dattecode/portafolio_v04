@@ -1,6 +1,6 @@
 import React from "react";
 import "./styless/styles.proyects.css";
-import pokedexImg from "./imgs/pokeimg.png";
+import pokeImg from "./imgs/pokeimg.png";
 import rymImg from "./imgs/rymimg.png";
 import upImg from "./imgs/upimg.png";
 import { IconBrandGithubFilled, IconMessage2Code } from "@tabler/icons-react";
@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const proyects = [
   {
     name: "Pokedex",
-    image: pokedexImg,
+    image: pokeImg,
     descripcion:
       "Pagina para ver tus Pokémon favoritos, implementa una descripción de los Pokémon y sistema de búsqueda",
     git: "https://github.com/dattecode/pokedex_v02",
