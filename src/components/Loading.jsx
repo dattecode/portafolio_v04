@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styless/styles.loading.css";
+import "./styless/styles.loading.css";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Loading = () => {
