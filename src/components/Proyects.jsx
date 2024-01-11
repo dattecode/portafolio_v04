@@ -1,8 +1,8 @@
 import React from "react";
 import "./styless/styles.proyects.css";
-import pokeImg from "./imgs/pokeimg.png";
-import rymImg from "./imgs/rymimg.png";
-import upImg from "./imgs/upimg.png";
+import pokeImg from "./imgs/pokeImg.png";
+import rymImg from "./imgs/rymImg.png";
+import upImg from "./imgs/upImg.png";
 import { IconBrandGithubFilled, IconMessage2Code } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 
