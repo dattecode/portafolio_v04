@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap");
+
+.contentMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  scroll-snap-type: y mandatory;
+  z-index: 10;
+}
+
+.navMain{
+  z-index: 10;
+}
+
+/*styles*/
+
+.lato {
+  font-family: "Lato", sans-serif;
+  background-color: #ff4081;
+  color: #333333;
+}
+
+.Inconsolata {
+  font-family: 'Inconsolata', monospace;
+  background-color: #007BA7;
+  color: #FFFFFF;
+}
+
+.barlow {
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #d1b0c5;
+  color: #24613b;
+}
+
+.darkMode {
+  font-family: "Exo 2", sans-serif;
+  background-color: #282c34;
+  color: #ffe4ff;
+}

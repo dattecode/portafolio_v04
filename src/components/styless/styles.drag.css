@@ -1,0 +1,22 @@
+
+.dragCont{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.drag{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%; 
+  box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.drag2{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%; 
+  box-shadow: -5px -10px 10px rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
