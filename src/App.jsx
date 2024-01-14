@@ -44,27 +44,34 @@ function App() {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
+  //logic
+
+  const handleChangeStyles = (style) => {
+    window.scrollTo(0, 0);
+    setLoading(true);
+    const timerChange = setTimeout(() => {
+      setSetstyleOn(style);
+      setLoading(false);
+    }, 1000);
+    return () => {
+      clearInterval(timerChange);
+    };
+  };
+
   const updatePosition = (event) => {
     x.set(event.clientX - 150 / 2);
     y.set(event.clientY - 150 / 2);
   };
 
   //effect
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    setLoading(true);
-    const timerChange = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-    return () => {
-      clearInterval(timerChange);
-    };
-  }, [setstyleOn]);
 
   return (
     <motion.main className={`${setstyleOn}`} onMouseMove={updatePosition}>
       <DragBg x={x} y={y} />
-      <Styless setSetstyleOn={setSetstyleOn} />
+      <Styless
+        setSetstyleOn={setSetstyleOn}
+        handleChangeStyles={handleChangeStyles}
+      />
       {loading === true ? <Loading /> : ""}
       <nav className="navMain">
         <Navbar />

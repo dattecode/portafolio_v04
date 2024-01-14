@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const allStyles = ["lato", "Inconsolata", "barlow", "darkMode"];
 
-const Styless = ({ setSetstyleOn }) => {
+const Styless = ({ setSetstyleOn, handleChangeStyles }) => {
   const [styleOn, setstyleOn] = useState(false);
 
   const stylesAnimated = {
@@ -36,7 +36,11 @@ const Styless = ({ setSetstyleOn }) => {
             exit="closed"
           >
             {allStyles.map((style) => (
-              <p key={style} className={`${style} styleItem`} onClick={() => setSetstyleOn(style)}>
+              <p
+                key={style}
+                className={`${style} styleItem`}
+                onClick={() => handleChangeStyles(style)}
+              >
                 {style}
               </p>
             ))}
