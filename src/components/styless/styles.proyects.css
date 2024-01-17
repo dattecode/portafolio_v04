@@ -67,3 +67,16 @@
   background-color: #005461;
   color: #ff3d3d;
 }
+
+@media(max-width: 768px){
+  .proyectsMain{
+    width: 100%;
+  }
+
+  .desProyectCont{
+    flex-direction: column;
+  }
+  .proyectImg{
+    width: 10rem;
+  }
+}

@@ -48,7 +48,7 @@ const Proyects = ({ articleAnimated }) => {
             exit="exit"
           >
             <img src={proyect.image} className="proyectImg" />
-            <tr className="proyectInfo">
+            <div className="proyectInfo">
               <h3 className="proyectTit">{proyect.name}</h3>
               <p>{proyect.descripcion}</p>
               <div className="proyectIconCont">
@@ -59,7 +59,7 @@ const Proyects = ({ articleAnimated }) => {
                   <IconMessage2Code className="proyectIcon" />
                 </a>
               </div>
-            </tr>
+            </div>
           </motion.div>
         ))}
       </section>

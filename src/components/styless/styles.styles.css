@@ -50,3 +50,13 @@
   scale: 1.1;
 }
 
+@media (max-width: 768px){
+  .fontStyleIcon{
+    width: 5rem;
+    font-size: 1.3rem;
+  }
+  .styleItem{
+    width: 5rem;
+    font-size: 0.7rem;
+  }
+}

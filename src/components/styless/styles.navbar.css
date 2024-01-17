@@ -10,6 +10,10 @@
   z-index: 15;
 }
 
+.btnQuery{
+  display: none;
+}
+
 /*description*/
 .navDes {
   width: 70%;
@@ -90,4 +94,13 @@
 .contactTit{
   color: #0D6E6E;
   border-bottom: 2px solid #FF3D3D;
+}
+
+/*query*/
+
+@media (max-width: 768px){
+  /*navquery*/
+  .navMain{
+    display: none;
+  } 
 }

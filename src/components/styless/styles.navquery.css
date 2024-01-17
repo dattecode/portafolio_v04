@@ -1,0 +1,44 @@
+.navQueryMain{
+  display: none;
+  position: fixed;
+  z-index: 15;
+  top: 1rem;
+  left: 1rem;
+}
+
+@media(max-width: 768px){
+  .navQueryMain{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btnQueryNav{
+    border: none;
+    width: 3rem;
+    background-color: #005461;
+    color: #ff3d3d;
+    border-radius: 0.5rem;
+  }
+
+  .queryNavSelect{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navLinkQuery{
+    background-color: #005461;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.2rem;
+  }
+
+  .queryContact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+}

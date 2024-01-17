@@ -88,3 +88,22 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
+
+@media (max-width: 768px){
+  .skillsMain{
+    width: 100%;
+  }
+
+
+  .skillTecno{
+    gap: 1.3rem;
+  }
+
+  .skillDes{
+    font-size: 1rem;
+  }
+
+  .skillTecno > ul > li{
+    font-size: 1rem;
+  }
+}

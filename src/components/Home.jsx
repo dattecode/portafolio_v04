@@ -2,10 +2,17 @@ import React from "react";
 import "./styless/styles.home.css";
 import { motion } from "framer-motion";
 
-const Home = ({articleAnimated}) => {
-
+const Home = ({ articleAnimated }) => {
   return (
     <article className="homeMain" id="home">
+      <div className="navPresentQuery">
+        <h2 className="navDesTit">Leonardo Valenzuela</h2>
+        <h3 className="navDesSubTit">Desarrollador Full-Stack</h3>
+        <p>
+          Mi objetivo principal es fusionar diseño y funcionalidad para crear
+          experiencias efectivas para los usuarios.
+        </p>
+      </div>
       <motion.p
         className="homeDes"
         variants={articleAnimated}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styless/styles.navbar.css";
 import { Link } from "react-scroll";
 import {
@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   return (
     <article className="navMain">
+      <button className="btnQuery">Menu</button>
       <motion.section
         className="navDes"
         initial={{ opacity: 0, x: -20 }}
@@ -30,21 +31,21 @@ const Navbar = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <tr className="navContSelect">
+        <div className="navContSelect">
           <Link to="home" smooth={true} duration={500} className="navSelect">
             - Inicio
           </Link>
-        </tr>
-        <tr className="navContSelect">
+        </div>
+        <div className="navContSelect">
           <Link to="proyect" smooth={true} duration={500} className="navSelect">
             - Proyectos
           </Link>
-        </tr>
-        <tr className="navContSelect">
+        </div>
+        <div className="navContSelect">
           <Link to="skills" smooth={true} duration={500} className="navSelect">
             - Habilidades
           </Link>
-        </tr>
+        </div>
       </motion.section>
       <motion.section className="navContact" initial={{ opacity: 0, x: -40 }}
         animate={{ opacity: 1, x: 0 }}

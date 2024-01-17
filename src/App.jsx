@@ -8,6 +8,7 @@ import Styless from "./components/Styless";
 import { motion, useMotionValue } from "framer-motion";
 import Loading from "./components/Loading";
 import DragBg from "./components/DragBg";
+import NavQuery from "./components/NavQuery";
 
 function App() {
   //state
@@ -68,6 +69,7 @@ function App() {
   return (
     <motion.main className={`${setstyleOn}`} onMouseMove={updatePosition}>
       <DragBg x={x} y={y} />
+      <NavQuery/>
       <Styless
         setSetstyleOn={setSetstyleOn}
         handleChangeStyles={handleChangeStyles}

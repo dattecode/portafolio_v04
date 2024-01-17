@@ -67,3 +67,23 @@
   color: #ff3d3d;
   scale: 1.1;
 }
+
+.navPresentQuery{
+  display: none;
+}
+
+@media(max-width: 768px){
+  .homeMain{
+    width: 100%;
+    gap: 1rem;
+  }
+  .homeDes{
+    font-size: 1.1rem;
+  }
+  .navPresentQuery{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+}
