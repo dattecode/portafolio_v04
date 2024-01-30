@@ -23,9 +23,9 @@ const skills = [
       "nodeJs",
       "expressJs",
       "sequelize",
-      "postgressSQL",
+      "postgresSQL",
       "jsonWebToken",
-      "coors",
+      "cors",
     ],
     description:
       "Destrezas en el desarrollo de servidores con Node.js y Express.js. Integración efectiva de bases de datos mediante Sequelize, con énfasis en la seguridad y autenticación usando JSON Web Token (JWT). Gestión hábil de CORS para asegurar la comunicación segura en API RESTful.",
