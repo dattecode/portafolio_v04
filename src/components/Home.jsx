@@ -20,15 +20,14 @@ const Home = ({ articleAnimated }) => {
         animate="animate"
         exit="exit"
       >
-        Soy un apasionado programador con un enfoque claro en la expansión
-        constante de mis habilidades. Mi experiencia se centra en el desarrollo
-        en el entorno de JavaScript, especialmente en React, donde utilizo
-        librerías como Axios, Framer Motion, y hago uso de frameworks como
-        Tailwind y Bootstrap para crear interfaces atractivas y funcionales. En
-        el backend, mi expertise se extiende a Node.js y Express.js, y en bases
-        de datos, trabajo con Sequelize y PostgreSQL. Mi metodología de
-        aprendizaje se basa en la auto-crítica y la dedicación al estudio
-        constante de nuevas tecnologías.
+        Soy un con un enfoque claro en la expansión constante de mis
+        habilidades. Mi experiencia se centra en el desarrollo en el entorno de
+        JavaScript, especialmente en React, donde utilizo librerías como Axios,
+        Framer Motion, y hago uso de frameworks como Tailwind y Bootstrap para
+        crear interfaces atractivas y funcionales. En el backend, mi expertise
+        se extiende a Node.js y Express.js, y en bases de datos, trabajo con
+        Sequelize y PostgreSQL. Mi metodología de aprendizaje se basa en la
+        auto-crítica y la dedicación al estudio constante de nuevas tecnologías.
       </motion.p>
       <motion.section
         className="homeSubDes"
