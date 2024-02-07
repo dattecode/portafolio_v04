@@ -20,7 +20,7 @@ const Home = ({ articleAnimated }) => {
         animate="animate"
         exit="exit"
       >
-        Soy un con programador un enfoque claro en la expansión constante de mis
+        Soy un programador con  un enfoque claro en la expansión constante de mis
         habilidades. Mi experiencia se centra en el desarrollo en el entorno de
         JavaScript, especialmente en React, donde utilizo librerías como Axios,
         Framer Motion, y hago uso de frameworks como Tailwind y Bootstrap para
