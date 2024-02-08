@@ -22,7 +22,7 @@ const Home = ({ articleAnimated }) => {
       >
         Soy un programador con  un enfoque claro en la expansión constante de mis
         habilidades. Mi experiencia se centra en el desarrollo en el entorno de
-        JavaScript, especialmente en React, donde utilizo librerías como Axios,
+        JavaScript, TypeScript, especialmente en React, donde utilizo librerías como Axios,
         Framer Motion, y hago uso de frameworks como Tailwind y Bootstrap para
         crear interfaces atractivas y funcionales. En el backend, mi expertise
         se extiende a Node.js y Express.js, y en bases de datos, trabajo con
@@ -37,7 +37,7 @@ const Home = ({ articleAnimated }) => {
         exit="exit"
       >
         <div className="hoursHome">
-          <p>+ 200</p>
+          <p>+ 250</p>
           <p>Horas De Practica</p>
         </div>
         <div className="homeCertificates">
@@ -56,6 +56,18 @@ const Home = ({ articleAnimated }) => {
               className="aCertificate"
             >
               Desarrollo de Aplicaciones Web con React
+            </a>
+            <a 
+              href="https://certiwise.co/verify/494"
+              target="_blank"
+              className="aCertificate">
+              Back-End Development with Node.js
+            </a>
+            <a 
+              href="https://certiwise.co/verify/506"
+              target="_blank"
+              className="aCertificate">
+              Full Stack Web Development
             </a>
           </div>
         </div>

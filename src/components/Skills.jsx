@@ -6,6 +6,8 @@ const skills = [
   {
     type: "Front-End",
     habilities: [
+      "JavaScript",
+      "TypeScript",
       "Html",
       "Css",
       "React",
@@ -20,10 +22,10 @@ const skills = [
     type: "Backend",
     habilities: [
       "JavaScript",
+      "TypeScript",
       "nodeJs",
       "expressJs",
       "sequelize",
-      "postgresSQL",
       "jsonWebToken",
       "cors",
     ],
