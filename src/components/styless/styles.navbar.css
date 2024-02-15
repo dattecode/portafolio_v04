@@ -91,6 +91,38 @@
   color: #FF3D3D;
 }
 
+.iconContactGit{
+  background-color: black;
+  color: #e0e0e0;
+  border-radius: 2rem;
+  border: 2px solid #0D6E6E;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  transition: scale 0.3s, color 0.3s;
+}
+
+.iconContactGit:hover{
+  scale: 1.2;
+  color: #FF3D3D;
+}
+
+.iconContactLink{
+  background-color: #2196F3;
+  color: #e0e0e0;
+  border-radius: 2rem;
+  border: 2px solid #0D6E6E;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  transition: scale 0.3s, color 0.3s;
+}
+
+.iconContactLink:hover{
+  scale: 1.2;
+  color: #FF3D3D;
+}
+
 .contactTit{
   color: #0D6E6E;
   border-bottom: 2px solid #FF3D3D;

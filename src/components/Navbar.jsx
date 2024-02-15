@@ -51,14 +51,14 @@ const Navbar = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{duration:0.9}}>
         <a href="https://github.com/dattecode" target="_blank">
-          <IconBrandGithubFilled className="iconContact" />
+          <IconBrandGithubFilled className="iconContactGit" />
         </a>
         <h3 className="contactTit">Contactame :</h3>
         <a
-          href="https://www.linkedin.com/in/leonardo-valenzuela-ortiz-496594274/"
+          href="https://www.linkedin.com/in/leonardo-v-496594274"
           target="_blank"
         >
-          <IconBrandLinkedin className="iconContact" />
+          <IconBrandLinkedin className="iconContactLink" />
         </a>
         <a href="mailto:dattecode@gmail.com" target="_blank">
           <IconMail className="iconContact" />

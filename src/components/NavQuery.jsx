@@ -74,13 +74,13 @@ const NavQuery = () => {
               className="queryContact"
             >
               <a href="https://github.com/dattecode" target="_blank">
-                <IconBrandGithubFilled className="iconContact" />
+                <IconBrandGithubFilled className="iconContactGit" />
               </a>
               <a
-                href="https://www.linkedin.com/in/leonardo-valenzuela-ortiz-496594274/"
+                href="https://www.linkedin.com/in/leonardo-v-496594274"
                 target="_blank"
               >
-                <IconBrandLinkedin className="iconContact" />
+                <IconBrandLinkedin className="iconContactLink" />
               </a>
               <a href="mailto:dattecode@gmail.com" target="_blank">
                 <IconMail className="iconContact" />
